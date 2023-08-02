@@ -502,6 +502,10 @@
             "$ref": "#/definitions/ChatChoice"
           },
           "x-ms-identifiers": []
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
         },
         "prompt_annotations": {
           "type": "array",
@@ -511,6 +515,11 @@
           },
           "x-ms-client-name": "promptFilterResults",
           "x-ms-identifiers": []
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
         },
         "usage": {
           "$ref": "#/definitions/CompletionsUsage",

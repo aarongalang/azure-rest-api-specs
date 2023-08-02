@@ -191,7 +191,14 @@ model ChatChoice {
   index: int32;
 
   #suppress "@azure-tools/typespec-azure-core/no-nullable" "The operation already returns nulls"
+<<<<<<< HEAD
   #suppress "@azure-tools/typespec-autorest/union-unsupported" "OpenAPI v2 support deferred"
+=======
+<<<<<<< HEAD
+  #suppress "@azure-tools/typespec-autorest/union-unsupported" "OpenAPI v2 support deferred"
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
   @doc("The reason that this chat completions choice completed its generated.")
   @projectedName("json", "finish_reason")
   finishReason: CompletionsFinishReason | null;
@@ -226,9 +233,21 @@ model ChatCompletions {
     represented as seconds since the beginning of the Unix epoch of 00:00 on 1 Jan 1970.
     """)
   @projectedName("json", "created")
+<<<<<<< HEAD
   @projectedName("java", "createdAt")
   @encode(DateTimeKnownEncoding.unixTimestamp, int32)
   created: utcDateTime;
+=======
+<<<<<<< HEAD
+  @projectedName("java", "createdAt")
+  @encode(DateTimeKnownEncoding.unixTimestamp, int32)
+  created: utcDateTime;
+=======
+  @projectedName("csharp", "InternalCreatedSecondsAfterUnixEpoch")
+  @projectedName("java", "createdAt")
+  created: int32;
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
 
   @doc("""
     The collection of completions choices associated with this completions response.

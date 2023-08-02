@@ -696,7 +696,7 @@
           {
             "in": "path",
             "name": "id",
-            "description": "Id of the job.",
+            "description": "Id of the job",
             "required": true,
             "type": "string"
           },
@@ -1008,7 +1008,15 @@
           {
             "in": "query",
             "name": "scheduledBefore",
+<<<<<<< HEAD
             "description": "If specified, filter on jobs that was scheduled before or at given timestamp. Range: (-Inf, scheduledBefore].",
+=======
+<<<<<<< HEAD
+            "description": "If specified, filter on jobs that was scheduled before or at given timestamp. Range: (-Inf, scheduledBefore].",
+=======
+            "description": "If specified, filter on jobs that was scheduled before or at given timestamp. Range: (-Inf, scheduledBefore]",
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
             "type": "string",
             "format": "date-time"
           },
@@ -1132,7 +1140,15 @@
           {
             "in": "body",
             "name": "unassignJobRequest",
+<<<<<<< HEAD
             "description": "Request body for unassign route.",
+=======
+<<<<<<< HEAD
+            "description": "Request body for unassign route.",
+=======
+            "description": "Request body for unassign route",
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
             "schema": {
               "$ref": "#/definitions/UnassignJobRequest"
             }
@@ -1243,7 +1259,15 @@
           {
             "in": "body",
             "name": "declineJobOfferRequest",
+<<<<<<< HEAD
             "description": "Request model for declining offer.",
+=======
+<<<<<<< HEAD
+            "description": "Request model for declining offer.",
+=======
+            "description": "Request model for declining offer",
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
             "schema": {
               "$ref": "#/definitions/DeclineJobOfferRequest"
             }
@@ -1530,7 +1554,15 @@
           {
             "in": "body",
             "name": "patch",
+<<<<<<< HEAD
             "description": "Model of worker properties to be created or patched. See also: https://datatracker.ietf.org/doc/html/rfc7386.",
+=======
+<<<<<<< HEAD
+            "description": "Model of worker properties to be created or patched. See also: https://datatracker.ietf.org/doc/html/rfc7386.",
+=======
+            "description": "Model of worker properties to be created or patched. See also: https://datatracker.ietf.org/doc/html/rfc7386",
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
             "required": true,
             "schema": {
               "$ref": "#/definitions/RouterWorker"
@@ -1686,19 +1718,43 @@
           {
             "in": "query",
             "name": "channelId",
+<<<<<<< HEAD
             "description": "If specified, select workers who have a channel configuration with this channel.",
+=======
+<<<<<<< HEAD
+            "description": "If specified, select workers who have a channel configuration with this channel.",
+=======
+            "description": "If specified, select workers who have a channel configuration with this channel",
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
             "type": "string"
           },
           {
             "in": "query",
             "name": "queueId",
+<<<<<<< HEAD
             "description": "If specified, select workers who are assigned to this queue.",
+=======
+<<<<<<< HEAD
+            "description": "If specified, select workers who are assigned to this queue.",
+=======
+            "description": "If specified, select workers who are assigned to this queue",
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
             "type": "string"
           },
           {
             "in": "query",
             "name": "hasCapacity",
+<<<<<<< HEAD
             "description": "If set to true, select only workers who have capacity for the channel specified by `channelId` or for any channel if `channelId` not specified. If set to false, then will return all workers including workers without any capacity for jobs. Defaults to false.",
+=======
+<<<<<<< HEAD
+            "description": "If set to true, select only workers who have capacity for the channel specified by `channelId` or for any channel if `channelId` not specified. If set to false, then will return all workers including workers without any capacity for jobs. Defaults to false.",
+=======
+            "description": "If set to true, select only workers who have capacity for the channel specified by `channelId` or for any channel\r\n            if `channelId` not specified. If set to false, then will return all workers including workers without any capacity for jobs. Defaults to false.",
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
             "type": "boolean"
           },
           {
@@ -1800,7 +1856,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing CancelExceptionAction",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing CancelExceptionAction",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "note": {
@@ -2011,7 +2074,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing ConditionalQueueSelectorAttachment",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing ConditionalQueueSelectorAttachment",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "condition": {
@@ -2041,7 +2111,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing ConditionalWorkerSelectorAttachment",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing ConditionalWorkerSelectorAttachment",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "condition": {
@@ -2362,11 +2439,24 @@
       }
     },
     "JobMatchingMode": {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
       "description": "The matching mode to be applied to this job.\r\n            \r\nSupported types:\r\n            \r\nQueueAndMatchMode: Used when matching worker to a job is required to be done right after job is queued.\r\nScheduleAndSuspendMode: Used for scheduling jobs to be queued at a future time. At specified time, matching of a worker to the job will not start automatically.\r\nSuspendMode: Used when matching workers to a job needs to be suspended.",
       "type": "object",
       "properties": {
         "modeType": {
           "description": "Discriminator value used to differentiate between supported matching mode types.",
+<<<<<<< HEAD
+=======
+=======
+      "description": "",
+      "type": "object",
+      "properties": {
+        "modeType": {
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "enum": [
             "queueAndMatchMode",
             "scheduleAndSuspendMode",
@@ -2415,7 +2505,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing ManualReclassifyExceptionAction",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing ManualReclassifyExceptionAction",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "queueId": {
@@ -2471,7 +2568,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing PassThroughQueueSelectorAttachment",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing PassThroughQueueSelectorAttachment",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "key": {
@@ -2513,7 +2617,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing PassThroughWorkerSelectorAttachment",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing PassThroughWorkerSelectorAttachment",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "key": {
@@ -2547,7 +2658,15 @@
       "x-ms-discriminator-value": "pass-through"
     },
     "QueueAndMatchMode": {
+<<<<<<< HEAD
       "description": "Describes a matching mode where matching worker to a job is automatically started after job is queued successfully.",
+=======
+<<<<<<< HEAD
+      "description": "Describes a matching mode where matching worker to a job is automatically started after job is queued successfully.",
+=======
+      "description": "",
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
       "type": "object"
     },
     "QueueLengthExceptionTrigger": {
@@ -2620,7 +2739,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing ReclassifyExceptionAction.",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing ReclassifyExceptionAction.",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "classificationPolicyId": {
@@ -3284,7 +3410,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing RuleEngineQueueSelectorAttachment",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing RuleEngineQueueSelectorAttachment",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "rule": {
@@ -3306,7 +3439,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing RuleEngineWorkerSelectorAttachment",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing RuleEngineWorkerSelectorAttachment",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "rule": {
@@ -3316,12 +3456,26 @@
       "x-ms-discriminator-value": "rule-engine"
     },
     "ScheduleAndSuspendMode": {
+<<<<<<< HEAD
       "description": "Describes a matching mode used for scheduling jobs to be queued at a future time.\r\nAt the specified time, matching worker to a job will not start automatically.",
+=======
+<<<<<<< HEAD
+      "description": "Describes a matching mode used for scheduling jobs to be queued at a future time.\r\nAt the specified time, matching worker to a job will not start automatically.",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
       "type": "object",
       "properties": {
         "scheduleAt": {
           "format": "date-time",
+<<<<<<< HEAD
           "description": "Scheduled time.",
+=======
+<<<<<<< HEAD
+          "description": "Scheduled time.",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         }
       }
@@ -3374,7 +3528,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing StaticQueueSelectorAttachment",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing StaticQueueSelectorAttachment",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "queueSelector": {
@@ -3393,7 +3554,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing StaticRouterRule",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing StaticRouterRule",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "value": {
@@ -3418,7 +3586,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing StaticWorkerSelectorAttachment",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing StaticWorkerSelectorAttachment",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "workerSelector": {
@@ -3428,7 +3603,14 @@
       "x-ms-discriminator-value": "static"
     },
     "SuspendMode": {
+<<<<<<< HEAD
       "description": "Describes a matching mode where matching worker to a job is suspended.",
+=======
+<<<<<<< HEAD
+      "description": "Describes a matching mode where matching worker to a job is suspended.",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
       "type": "object"
     },
     "UnassignJobRequest": {
@@ -3436,7 +3618,15 @@
       "type": "object",
       "properties": {
         "suspendMatching": {
+<<<<<<< HEAD
           "description": "If SuspendMatching is true, then the job is not queued for re-matching with a worker.",
+=======
+<<<<<<< HEAD
+          "description": "If SuspendMatching is true, then the job is not queued for re-matching with a worker.",
+=======
+          "description": "If WaitForActivation is true, then the job is not queued for re-matching with a worker.",
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "boolean"
         }
       }
@@ -3474,7 +3664,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing a sub-type of WaitTimeExceptionTrigger",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing a sub-type of WaitTimeExceptionTrigger",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "thresholdSeconds": {
@@ -3495,7 +3692,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing WebhookRouterRule",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing WebhookRouterRule",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "authorizationServerUri": {
@@ -3527,7 +3731,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing WeightedAllocationQueueSelectorAttachment",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing WeightedAllocationQueueSelectorAttachment",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "allocations": {
@@ -3553,7 +3764,14 @@
       ],
       "properties": {
         "kind": {
+<<<<<<< HEAD
           "description": "The type discriminator describing WeightedAllocationWorkerSelectorAttachment",
+=======
+<<<<<<< HEAD
+          "description": "The type discriminator describing WeightedAllocationWorkerSelectorAttachment",
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
           "type": "string"
         },
         "allocations": {

@@ -215,7 +215,14 @@ model Choice {
   logprobs: CompletionsLogProbabilityModel | null;
 
   #suppress "@azure-tools/typespec-azure-core/no-nullable" "The operation already returns nulls"
+<<<<<<< HEAD
   #suppress "@azure-tools/typespec-autorest/union-unsupported" "OpenAPI v2 support deferred"
+=======
+<<<<<<< HEAD
+  #suppress "@azure-tools/typespec-autorest/union-unsupported" "OpenAPI v2 support deferred"
+=======
+>>>>>>> bfe255b58c (updating containerstorage to match Azure-ContainerStorageRP swagger)
+>>>>>>> f5e25c0174 (updating containerstorage to match Azure-ContainerStorageRP swagger)
   @doc("Reason for finishing")
   @projectedName("json", "finish_reason")
   finishReason: CompletionsFinishReason | null;
